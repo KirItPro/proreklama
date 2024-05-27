@@ -5,7 +5,7 @@ import "./user.css";
 export default function User() {
     const dataURL  = 'http://147.45.136.116:8080/users_customers';
     function Console () {
-        console.log('ппппп')
+        console.log('ппhпп')
     }
     useEffect(() => {
         axios.get(dataURL)
