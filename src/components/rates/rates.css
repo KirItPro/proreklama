@@ -1,0 +1,79 @@
+.rates-lianer_title {
+    font-size: 32px;
+}
+.rates-platforms_all {
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    user-select: none;
+    gap: 30px 0;
+}
+.rates-platforms {
+    display: flex;
+}
+.rates-platforms_info {
+    /* display: none; */
+    color: #19b4f183;    
+    animation: ani2 0.5s ease
+}
+@keyframes ani2 {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+.rates-platforms_info--title {
+    margin: 0;
+    padding: 0;
+}
+.rates-platforms_btn {
+    background-color: #00000000;
+    border: 0;
+}
+.rates-platforms_img {
+    width: 100px;
+    height: 100px;
+    border: 0px solid;
+    border-radius: 25px;
+    transition: 0.2s;
+}
+.rates-platforms_img:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #cb6aebb0; 
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+.rates-platforms_text {  
+    font-size: 14px;  
+    width: 350px;
+    
+}
+.rates-platforms_tarif {
+    width: 350px;
+    display: grid;
+    align-items: center;
+    justify-content:space-around;
+    background: linear-gradient(#cb6aeb83 20%, #19b4f183 100%);
+    border-radius: 10px;
+    animation: ani 0.5s ease
+}
+@keyframes ani {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+.rates-platforms_tarif--select {
+    width: 250px;
+    padding: 5px 0;
+    background-color: #d9d9d93f;
+    border-radius: 10px;
+}
+.none {
+    display: none;
+}

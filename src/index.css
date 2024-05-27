@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Major+Mono+Display&family=Poiret+One&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +16,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #18181B;  
+  color: #FAFAFA;;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.container {
+  /* max-width: 1220px; */
+  padding: 0 10px;
+  margin: 0 auto;
 }

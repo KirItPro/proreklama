@@ -1,0 +1,38 @@
+
+.promo__lianer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #252532;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase ; 
+    font-size: 45px;
+    text-align: center;
+    align-items: center;
+    user-select: none;
+}
+.promo-title {
+    margin-bottom: 0;
+}
+.promo-pro {
+    color: #0FC4EC;
+}
+.promo-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.promo-img {
+    height: 450px;   
+    margin-top: 30px;
+    bottom: 0;
+}
+.promo-text {
+    max-width: 40vw;
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
