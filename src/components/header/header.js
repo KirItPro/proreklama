@@ -8,11 +8,11 @@ import Modal from "../modal/modal";
 export default function Header() {
   const [modal, setModal] = useState(false);
   function setTrue(){
-      console.log('true')
+      // console.log('true')
       setModal(true)
   }
   function setFalse(){
-    console.log('false')
+    // console.log('false')
     setModal(false)
 }
   return (
@@ -27,6 +27,9 @@ export default function Header() {
             <Link to='/support' className="header-navigation__btn">поддержка</Link>
             <Link to="/news" className="header-navigation__btn">
               новости
+            </Link>
+            <Link to="/registration" className="header-navigation__btn">
+              Регистрация
             </Link>
           </nav>
           <Link to="/user" className="header-login" onPointerEnter={setTrue} onPointerOut={setFalse}>

@@ -3,6 +3,7 @@
 
 html {
   box-sizing: border-box;
+  min-height: 600px;
 }
 *,
 *::after,
@@ -25,7 +26,6 @@ code {
     monospace;
 }
 .container {
-  /* max-width: 1220px; */
   padding: 0 10px;
   margin: 0 auto;
 }
