@@ -1,4 +1,6 @@
 .footer {
-    margin: 10px;
     user-select: none;
+}
+.footer-text {
+    margin:50px 0 5px;
 }

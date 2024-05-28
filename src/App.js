@@ -6,6 +6,8 @@ import Header from "./components/header/header";
 import Promo from "./components/promo/promo";
 import Rates from "./components/rates/rates";
 import User from "./components/user/user";
+import News from "./components/news/news";
+import Support from "./components/support/support";
 
 import "./App.css";
 function App() {
@@ -26,6 +28,8 @@ function App() {
       <Routes>
         <Route path='/proreklama' element={<><Promo /><Rates /></>}/>
         <Route path="/user" element={<User />}/>
+        <Route path="/news" element={<News/>}/>
+        <Route path="/support" element={<Support/>}/>
       </Routes>
 
       
