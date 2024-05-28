@@ -1,9 +1,20 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import LOGO from "../../images/Logo.png";
 
 import "./header.css";
+import Modal from "../modal/modal";
 
 export default function Header() {
+  const [modal, setModal] = useState(false);
+  function setTrue(){
+      console.log('true')
+      setModal(true)
+  }
+  function setFalse(){
+    console.log('false')
+    setModal(false)
+}
   return (
     <header className="header">
       <div className="container">
@@ -18,10 +29,13 @@ export default function Header() {
               новости
             </Link>
           </nav>
-          <Link to="/user" className="header-login">
+          <Link to="/user" className="header-login" onPointerEnter={setTrue} onPointerOut={setFalse}>
             профиль
           </Link>
         </div>
+        {
+          modal ? <Modal /> : console.log('убрал')
+        }
       </div>
     </header>
   );

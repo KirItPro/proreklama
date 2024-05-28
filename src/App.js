@@ -8,6 +8,7 @@ import Rates from "./components/rates/rates";
 import User from "./components/user/user";
 import News from "./components/news/news";
 import Support from "./components/support/support";
+import Modal from "./components/modal/modal";
 
 import "./App.css";
 function App() {
@@ -31,8 +32,6 @@ function App() {
         <Route path="/news" element={<News/>}/>
         <Route path="/support" element={<Support/>}/>
       </Routes>
-
-      
       <Footer />
     </div>
   );

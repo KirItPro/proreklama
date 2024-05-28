@@ -37,10 +37,10 @@ export default function User() {
               <div className="second-part--block__cart">1000 P</div>
             </div>
             <div className="second-part--block">
-              <div className="second-part--block__text">Способы оплаты</div>
+              <div className="second-part--block__text">Оферта</div>
             </div>
             <div className="second-part--block">
-              <div className="second-part--block__text">Способы оплаты</div>
+              <div className="second-part--block__text">Обращения</div>
             </div>
 
           </div>
