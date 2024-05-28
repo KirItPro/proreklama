@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import LOGO from '../../images/Logo.png'
 
 import './header.css';
@@ -8,13 +9,13 @@ export default function Header () {
             <div className='container'>
                 <div className='header__inner'>
                     <img src={LOGO} className='header-img' alt='logo'/>
-                    <div className="header-promo"><span className="header-pro">pro</span>reklama</div>
+                    <Link to='/proreklama' className="header-promo"><span className="header-pro">pro</span>reklama</Link>
                     <nav className='header-navigation'>
                         <div className='header-navigation__btn'>поддержка</div>
                         <div className='header-navigation__btn'>авторизация</div>
                         <div className='header-navigation__btn'>новости</div>
                     </nav>
-                    <div className='header-login'>регистрация</div>
+                    <Link to ='/user'className='header-login'>войти</Link>
                 </div>
             </div>
         </header>

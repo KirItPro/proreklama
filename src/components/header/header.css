@@ -20,6 +20,8 @@
     position: relative;
     background: #00000000;
     left: 25px;
+    text-decoration: none;
+    color: inherit;
 }
 .header-pro {
     background: linear-gradient(to right, #FAFAFA 0%, #0FC4EC 100%);
@@ -39,10 +41,12 @@
 }
 .header-login {
     margin: 0;
+    padding: 6px;
     order: 1px solid linear-gradient(100deg, #36a0d8 0%, #bc6ad2 76%);
     background: linear-gradient(#000000, #000000) 50% 50%/calc(100% - 2px) calc(100% - 2px) no-repeat,linear-gradient(100deg, #36a0d8 0%, #bc6ad2 76%);
     border-radius: 0px;
-    padding: 6px;
+    text-decoration: none;
+    color: inherit;
     box-sizing: content-box;
     transition: 0.2s;
 }

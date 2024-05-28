@@ -27,7 +27,7 @@ export default function Rates() {
     <div className="rates">
       <div className="container">
         <div className="rates-lianer">
-          <h2 className="rates-lianer_title">Выбери тариф</h2>
+          <h2>Выбери тариф</h2>
           <div className="rates-platforms_all">
             {dataSocialIcons.map((data, i) => (
               <div className="rates-platforms" key={i+'tarif'}>
@@ -39,12 +39,12 @@ export default function Rates() {
                     id={data.id}
                   />
                 </button>
-                <div className={data.id == list.id ? isActiveInfo : "rates-platforms_info"}>
+                <div className={data.id === list.id ? isActiveInfo : "rates-platforms_info"}>
                   <h3 className="rates-platforms_info--title">{data.title}</h3>
                   <p className="rates-platforms_text">{data.text}</p>
                 </div>
 
-                <div className={data.id == list.id ? isActiveTarif : "none"}>
+                <div className={data.id === list.id ? isActiveTarif : "none"}>
                   <h3 className="rates-platforms_info--title">{data.title}</h3>
                   <div className="rates-platforms_tarif--select">«Life»</div>
                   <div className="rates-platforms_tarif--select">«Сlassic»</div>

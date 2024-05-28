@@ -1,6 +1,4 @@
-.rates-lianer_title {
-    font-size: 32px;
-}
+
 .rates-platforms_all {
     margin-bottom: 30px;
     display: grid;
@@ -13,7 +11,6 @@
     display: flex;
 }
 .rates-platforms_info {
-    /* display: none; */
     color: #19b4f183;    
     animation: ani2 0.5s ease
 }

@@ -5,7 +5,7 @@ export default function Promo() {
   return (
     <div className="promo">
       <div className="container">
-        <div className="promo__lianer">
+        <div className="promo__inner">
           <img src={PROMO} className="promo-img" alt="promo" />
           <div className="promo-content">
             <div>
