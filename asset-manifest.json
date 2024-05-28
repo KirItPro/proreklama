@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/proreklama/static/css/main.0178e4d9.css",
-    "main.js": "/proreklama/static/js/main.5917740d.js",
+    "main.css": "/proreklama/static/css/main.ef7a936f.css",
+    "main.js": "/proreklama/static/js/main.ad7c32f7.js",
     "static/media/girl-promo.png": "/proreklama/static/media/girl-promo.cfdac572060c30a344ef.png",
+    "static/media/ava.png": "/proreklama/static/media/ava.6e20be41c9c8ce9b4fae.png",
     "static/media/inst.png": "/proreklama/static/media/inst.3dbd798b7c9f3460e13e.png",
+    "static/media/percent.png": "/proreklama/static/media/percent.5214a631c6f605ac2a63.png",
     "static/media/vk.png": "/proreklama/static/media/vk.60cc0bdd4a8542085d70.png",
     "static/media/tiktok.png": "/proreklama/static/media/tiktok.134c96a271362110b770.png",
     "index.html": "/proreklama/index.html",
-    "main.0178e4d9.css.map": "/proreklama/static/css/main.0178e4d9.css.map",
-    "main.5917740d.js.map": "/proreklama/static/js/main.5917740d.js.map"
+    "main.ef7a936f.css.map": "/proreklama/static/css/main.ef7a936f.css.map",
+    "main.ad7c32f7.js.map": "/proreklama/static/js/main.ad7c32f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.0178e4d9.css",
-    "static/js/main.5917740d.js"
+    "static/css/main.ef7a936f.css",
+    "static/js/main.ad7c32f7.js"
   ]
 }
